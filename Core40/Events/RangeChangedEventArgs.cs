@@ -30,18 +30,18 @@ namespace LiveCharts.Events
         /// <summary>
         /// Gets the min limit difference compared with previous state
         /// </summary>
-        public double LeftLimitChange { get; internal set; }
+        public double LeftLimitChange { get;  set; }
         /// <summary>
         /// Gets the max limit difference compared with previous state
         /// </summary>
-        public double RightLimitChange { get; internal set; }
+        public double RightLimitChange { get;  set; }
         /// <summary>
         /// Gets the current axis range
         /// </summary>
-        public double Range { get; internal set; }
+        public double Range { get;  set; }
         /// <summary>
         /// Gets the axis that fired the change
         /// </summary>
-        public object Axis { get; internal set; }
+        public object Axis { get;  set; }
     }
 }

@@ -184,9 +184,9 @@ namespace LiveCharts
 
         #region Internal Properties
 
-        internal double Tab { get; set; }
+        public double Tab { get; set; }
 
-        internal double TopLimit
+        public double TopLimit
         {
             get { return _topLimit; }
             set
@@ -195,7 +195,7 @@ namespace LiveCharts
             }
         }
 
-        internal double BotLimit { get; set; }
+        public double BotLimit { get; set; }
         internal double TopSeriesLimit { get; set; }
         internal double BotSeriesLimit { get; set; }
         internal double MaxPointRadius { get; set; }
@@ -208,7 +208,7 @@ namespace LiveCharts
         internal int GarbageCollectorIndex { get; set; }
         internal double PreviousTop { get; set; }
         internal double PreviousBot { get; set; }
-        protected internal double FirstSeparator { get; protected set; }
+        public  double FirstSeparator { get;  set; }
         protected internal double LastSeparator { get; protected set; }
 
         #endregion

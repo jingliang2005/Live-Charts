@@ -61,13 +61,13 @@ namespace LiveCharts.Events
         /// <value>
         /// The preview minimum value.
         /// </value>
-        public double PreviewMinValue { get; internal set; }
+        public double PreviewMinValue { get;  set; }
         /// <summary>
         /// Gets the preview maximum value.
         /// </summary>
         /// <value>
         /// The preview maximum value.
         /// </value>
-        public double PreviewMaxValue { get; internal set; }
+        public double PreviewMaxValue { get;  set; }
     }
 }

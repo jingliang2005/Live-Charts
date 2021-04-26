@@ -38,7 +38,7 @@ namespace LiveCharts.Helpers
         /// <typeparam name="T">type to iterate with</typeparam>
         /// <param name="source">collection to iterate</param>
         /// <param name="predicate">action to execute</param>
-        internal static void ForEach<T>(this IEnumerable<T> source, Action<T> predicate)
+        public static void ForEach<T>(this IEnumerable<T> source, Action<T> predicate)
         {
             foreach (var item in source) predicate(item);
         }
@@ -75,7 +75,7 @@ namespace LiveCharts.Helpers
         /// </summary>
         /// <param name="axis">current orientation</param>
         /// <returns>inverted axis orientation</returns>
-        internal static AxisOrientation Invert(this AxisOrientation axis)
+        public static AxisOrientation Invert(this AxisOrientation axis)
         {
             return axis == AxisOrientation.X
                 ? AxisOrientation.Y
